@@ -70,9 +70,11 @@ Ans- Feb-March saw a decline in profits despite increase in discounts. Likewise 
 | File Name                                     | Description                          |
 |-----------------------------------------------|--------------------------------------|
 | `Financial_Dataset_Project.twbx`              | Tableau workbook with toggle feature |
-| `FInancial_Data.csv`			                | Dataset used                         |
+| `FInancial_Data.csv`			                       | Dataset used                         |
 | `README.md`                                   | This documentation                   |
 | `images/financial_analysis_dashboard_1.png`   | Screenshot of the dashboard          |
 | `images/financial_analysis_dashboard_2.png`   | Screenshot of the dashboard          |
 
 ---
+<img width="1182" height="799" alt="Financial Analysis Dashboard 1" src="https://github.com/user-attachments/assets/c7882ea6-d7aa-4690-9428-da437a714be0" />
+<img width="1178" height="830" alt="Financial Analysis Dashboard 2" src="https://github.com/user-attachments/assets/c1cfaf17-fc14-4e6d-9b6f-e5938c0fc77b" />
