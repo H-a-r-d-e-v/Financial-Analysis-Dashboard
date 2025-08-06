@@ -48,8 +48,8 @@ Ans-  Germany has the highest profit per unit sold as well as profit margin.(Pro
 Q2 - What are the trends in sales and profits over time?
 Ans- Total Sales and Total Profit KPIs plot
 
-Q3- Are there any segments with sales growth but no prift growth?
-Ans - Yes, Enterprise saw a negative profit growth from July onwards. Likewise, Midmarket segment saw declining growth from June to July. (Sales & profit growth per segment plot)
+Q3- Are there any segments with sales growth but no profit growth?
+Ans - Yes, Enterprise segment saw a negative profit growth from July onwards. Likewise, Midmarket segment saw declining growth from June to July. (Sales & profit growth per segment plot)
 
 Q4- What is the ROI of every unit of discount?
 Ans- Germany and France had the above average ROI while Canada, Mexico and USA had below average ROI. (Return on Investment of every unit of Discount plot.)
@@ -70,7 +70,7 @@ Ans- Feb-March saw a decline in profits despite increase in discounts. Likewise 
 
 | File Name                                     | Description                          |
 |-----------------------------------------------|--------------------------------------|
-| `Financial_Dataset_Project.twbx`              | Tableau workbook with toggle feature |
+| `Financial_Dataset_Project.twbx`              | Tableau workbook                     |
 | `FInancial_Data.csv`			                       | Dataset used                         |
 | `README.md`                                   | This documentation                   |
 | `images/financial_analysis_dashboard_1.png`   | Screenshot of the dashboard          |
@@ -79,4 +79,5 @@ Ans- Feb-March saw a decline in profits despite increase in discounts. Likewise 
 ---
 <img width="1182" height="799" alt="Financial Analysis Dashboard 1" src="https://github.com/user-attachments/assets/c7882ea6-d7aa-4690-9428-da437a714be0" />
 <img width="1178" height="830" alt="Financial Analysis Dashboard 2" src="https://github.com/user-attachments/assets/c1cfaf17-fc14-4e6d-9b6f-e5938c0fc77b" />
+
 
