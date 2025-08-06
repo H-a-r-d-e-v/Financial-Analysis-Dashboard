@@ -30,17 +30,28 @@ The goal of this Tableau project is to analyze financial performance across diff
   > (SUM([CY Profits])-SUM([PY Profits]))/SUM([PY Profits])
 - % diff Sales
   > (SUM([CY Sales])-SUM([PY Sales]))/SUM([PY Sales])
-- COGS to Sales ratio > SUM([Cogs])/SUM([Sales])
-- CY Profits > if YEAR([Date])=[Select year] then [Profit] END
-- CY Sales > if YEAR([Date])=[Select year] then [Sales] END
-- PY Profits > if YEAR([Date])= [Select year]-1 then [Profit] END
-- PY Sales > if YEAR([Date])= [Select year]-1 then [Sales] END
-- Discount % = SUM([Discounts])/SUM([Gross Sales])
-- Min/Max Profits > if SUM([CY Profits])=WINDOW_MAX(SUM([CY Profits])) then SUM([CY Profits]) ELSEIF SUM([CY Profits])=WINDOW_MIN(SUM([CY Profits])) then SUM([CY Profits]) END
-- Min/Max Sales > if SUM([CY Sales]) = WINDOW_MAX(SUM([CY Sales])) THEN SUM([CY Sales])  ELSEIF SUM([CY Sales]) = WINDOW_MIN(SUM([CY Sales])) THEN SUM([CY Sales]) END
-- Profit Margin % > SUM([Profit])/SUM([Sales])
-- Profit per Unit > SUM([Profit])/SUM([Units Sold])
-- Profitability > IF SUM([Discounts]) = 0 THEN 0 ELSE SUM([Profit]) / SUM([Discounts]) END
+- COGS to Sales ratio
+  > SUM([Cogs])/SUM([Sales])
+- CY Profits
+  > if YEAR([Date])=[Select year] then [Profit] END
+- CY Sales
+  > if YEAR([Date])=[Select year] then [Sales] END
+- PY Profits
+  > if YEAR([Date])= [Select year]-1 then [Profit] END
+- PY Sales
+  > if YEAR([Date])= [Select year]-1 then [Sales] END
+- Discount %
+  > SUM([Discounts])/SUM([Gross Sales])
+- Min/Max Profits
+  > if SUM([CY Profits])=WINDOW_MAX(SUM([CY Profits])) then SUM([CY Profits]) ELSEIF SUM([CY Profits])=WINDOW_MIN(SUM([CY Profits])) then SUM([CY Profits]) END
+- Min/Max Sales
+  > if SUM([CY Sales]) = WINDOW_MAX(SUM([CY Sales])) THEN SUM([CY Sales])  ELSEIF SUM([CY Sales]) = WINDOW_MIN(SUM([CY Sales])) THEN SUM([CY Sales]) END
+- Profit Margin %
+  > SUM([Profit])/SUM([Sales])
+- Profit per Unit
+  > SUM([Profit])/SUM([Units Sold])
+- Profitability
+  > IF SUM([Discounts]) = 0 THEN 0 ELSE SUM([Profit]) / SUM([Discounts]) END
 
 ## Calculated parameters:
  - Select Year
@@ -84,6 +95,7 @@ Ans- Feb-March saw a decline in profits despite increase in discounts. Likewise 
 ---
 <img width="1182" height="799" alt="Financial Analysis Dashboard 1" src="https://github.com/user-attachments/assets/c7882ea6-d7aa-4690-9428-da437a714be0" />
 <img width="1178" height="830" alt="Financial Analysis Dashboard 2" src="https://github.com/user-attachments/assets/c1cfaf17-fc14-4e6d-9b6f-e5938c0fc77b" />
+
 
 
 
