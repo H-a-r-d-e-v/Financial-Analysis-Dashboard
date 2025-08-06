@@ -22,10 +22,14 @@ The goal of this Tableau project is to analyze financial performance across diff
 - Year
 
 ## Calculated Fields:
-- Current year > [Select Year]
-- Previous Year > [Select Year] -1
-- % diff Profits > (SUM([CY Profits])-SUM([PY Profits]))/SUM([PY Profits])
-- % diff Sales > (SUM([CY Sales])-SUM([PY Sales]))/SUM([PY Sales])
+- Current year
+  > [Select Year]
+- Previous Year
+  > [Select Year] -1
+- % diff Profits
+  > (SUM([CY Profits])-SUM([PY Profits]))/SUM([PY Profits])
+- % diff Sales
+  > (SUM([CY Sales])-SUM([PY Sales]))/SUM([PY Sales])
 - COGS to Sales ratio > SUM([Cogs])/SUM([Sales])
 - CY Profits > if YEAR([Date])=[Select year] then [Profit] END
 - CY Sales > if YEAR([Date])=[Select year] then [Sales] END
@@ -80,6 +84,7 @@ Ans- Feb-March saw a decline in profits despite increase in discounts. Likewise 
 ---
 <img width="1182" height="799" alt="Financial Analysis Dashboard 1" src="https://github.com/user-attachments/assets/c7882ea6-d7aa-4690-9428-da437a714be0" />
 <img width="1178" height="830" alt="Financial Analysis Dashboard 2" src="https://github.com/user-attachments/assets/c1cfaf17-fc14-4e6d-9b6f-e5938c0fc77b" />
+
 
 
 
